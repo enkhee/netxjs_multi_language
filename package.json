@@ -1,0 +1,20 @@
+{
+  "name": "nextjs-i18n-staticprops",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "next": "10.0.4",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next src",
+    "build": "next build src",
+    "start": "next start src",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "keywords": [],
+  "description": ""
+}
